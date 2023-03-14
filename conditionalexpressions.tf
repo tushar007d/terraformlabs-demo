@@ -1,5 +1,5 @@
 variable "istest" {
-    default = true
+    default = "true"
 }
 
 resource "aws_instance" "instancetest" {
